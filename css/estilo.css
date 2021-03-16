@@ -1,0 +1,60 @@
+  
+     body {
+      background-image:url(../img/marmo.jpg);
+      background-repeat: round;
+      width:70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+     div {
+      font-size:2em;
+    }
+     h1,h2,h3{
+      color: black;
+      text-align: center;
+      font-size: 30px;
+      text-transform: uppercase;
+      border-style: groove;
+    }
+     p{
+      color: black;
+      text-align: center;
+      font-size: 16px;
+      font-family: 'Teko', sans-serif;;
+    }
+    figure{
+      text-align: center;
+    }
+    img{
+      width: 80%
+    }
+      ul li {
+
+         color: black;
+      text-align: center;
+      font-size: 10px;
+      font-family: 'DotGothic16', sans-serif;
+      }
+      a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: orange;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: blue;
+        background-color: transparent;
+        text-decoration: underline;
+      }
