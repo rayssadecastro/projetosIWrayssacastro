@@ -1,0 +1,168 @@
+  
+
+     html{
+      scroll-behavior: smooth;
+     }
+     body {
+      min-height: 100vh;
+      background: linear-gradient(  #66CDAA,  #B0E0E6)
+     }
+      header , footer {
+      background-color: rgba(72,209,204);
+      padding:2%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.5em;
+      font-weight: border;
+      line-height: 1.5;
+      
+    }
+     
+    .menu-pcoes{
+      text-align:left;
+    }
+    .fixo{
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+    }
+    .ajustes {
+      line-height: 1;
+    }
+    .ajustes li:hover {
+      background-color:   #98FB98;
+    }
+
+    .container {
+      margin-top:30%; 
+      width:80%;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;    
+
+     }
+     @media screen and (max-width: 599px){
+    .container {
+      margin-top: 65%;
+     }
+    }
+    @media screen and (min-width: 600px){
+    .container {
+      margin-top: 40%;
+     }
+    }
+    @media  screen and (min-width: 768px){
+    .container {
+      margin-top: 20%;}
+
+      header{
+        flex-direction: row;
+        position: relative;    
+
+      }
+
+      .menu-pcoes{
+
+        position: absolute;
+        right: 5%;
+        top: 50%;
+      }
+      .menu-pcoes ul li{
+
+         display: inline;
+         margin-left: 10px;
+      }
+     
+    } 
+
+     div {
+      font-size:2em;
+    }
+    
+     h1,h2,h3{
+      color: black;
+      text-align: center;
+      font-size: 30px;
+      text-transform: uppercase;
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Indie Flower', cursive;
+      padding: 10;
+      margin-top: 2%;
+      text-shadow: 2px 2px  #00BFFF;
+    }
+     p{
+      color: black;
+      text-align: center;
+      font-size: 16px;
+      font-family: 'Nanum Gothic', sans-serif;
+      margin-top: 2%;
+      margin-top:2%;
+
+    }
+
+    .centro{
+      color:#D2691E;
+      text-align: center;      
+    }
+    figure{
+      text-align: center;
+    }
+
+    .imgtexto{
+      border:5px dashed #fff;  
+      width: 70%;
+
+    }
+    .listatexto {
+      color: black;
+      font-size: 20px;
+      font-family: 'Nanum Gothic', sans-serif;
+      text-decoration: underline;
+    }
+      a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: green;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: blue;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      table{
+        color: black;
+        font-weight: bold;
+        border:ridge;
+        font-size: 20px;
+        width: auto;
+        text-align: center;
+      }
+      td,th{
+        border: 5px ridge grey;
+        text-align: center;
+        padding: 12px;
+      }
+      tr:nth-child(even) {
+        background-color: #00FF7F;
+        font-size: 20px;
+      }
+       @media screen and (min-width: 60px) {
+      
+     }
