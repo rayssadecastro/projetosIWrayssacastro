@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Entendendo o Position</title>
+</head>
+<style type="text/css">
+
+	.fixo{
+		position:fixed;
+		top:0;
+		right:0;
+		left:0;
+		z-index:1030;
+		background-color: #C71585;
+	}
+
+	.main{
+		margin-top: 8%;
+	}
+
+	.container{
+		position: relative;
+		background-color: pink;
+		width: 100%;
+		height: 1220px;
+		text-align: center;
+	}
+
+	.topoesquerda{
+		position: absolute;
+		top:16px;
+		right: 16px;
+		font-size: 18px;
+		width: 20%;
+		background-color: 	#7B68EE;
+	}
+
+	.topodireita{
+		position: absolute;
+		top:16px;
+		left: 16px;
+		font-size: 18px;
+		width: 20%;
+		background-color:	#7B68EE;
+	}
+
+	.abaixoesquerda{
+		position: absolute;
+		bottom:16px;
+		right: 16px;
+		font-size: 18px;
+		width: 20%;
+		background-color:	#7B68EE;
+	}
+	.abaixodireita{
+		position: absolute;
+		bottom:16px;
+		left: 16px;
+		font-size: 18px;
+		width: 20%;
+		background-color: 	#7B68EE;
+	}
+
+	.centro{
+		position: absolute;
+		top: 50%;
+		font-size:18px;
+		width: 20%;		
+		background-color:#7B68EE;
+		margin-left: 40%;
+
+	}
+	.titulo{
+		text-align: center;
+	}
+
+</style>
+<body>
+	<header class="fixo">
+		<h1>Testando o Posicionamento</h1>
+	</header>
+	<div class="main">
+		<h1>Testando...</h1>
+		<div class="container">
+			<div class="topoesquerda">No topo Esquerda</div>
+			<div class="topodireita">No topo direita</div>
+			<div class="abaixodireita">Abaixo direita</div>
+			<div class="abaixoesquerda">Abaixo esquerda</div>
+			<div class="centro">centro</div>					
+		</div>
+		<p class="titulo"><<a href="index.html">Clique aqui para voltar para a pagina inicial </a></p>
+	</div>
+
+</body>
+</html>
